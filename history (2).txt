@@ -1,0 +1,7 @@
+   0 mkdir -p /home/animals/dogs /home/animals/cats /home/animals/fish /home/humans && touch /home/animals/dogs/pluto.txt /home/animals/cats/garfield.txt /home/animals/fish/nemo.txt /tmp/adam.txt /tmp/evA
+   1 cp /tmp/adam.txt /home/humans/
+   2 mv /tmp/evA /opt/eve.txt
+   3 mv /opt/eve.txt /home/humans
+   4 tree /home/
+   5 history
+   6 history > history.txt && export_file history.txt
